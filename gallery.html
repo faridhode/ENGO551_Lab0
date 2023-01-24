@@ -2,19 +2,35 @@
 <html>
     <head>
         <title>Gallery</title>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        Welcome to the Gallery
+        <h2>The Gallery </h2>
 		<br> 
-		<br> 
-		<br> 
-		<img src="Burrito.jpg" alt="Burrito Tokio" width = "500" height = "600">
-		<p> Burrito Tokio <p>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<img src="Burrito.jpg" alt="Burrito Tokio" width = "500" height = "600">
+					<p id="caption"> Burrito Tokio <p>
+				</div>
+				<div class="col-sm">
+					<img src="puppyteef.jpg" alt="Puppy Teef Tokio" width = "500" height = "600">
+					<p id="caption"> Teef Tokio <p>
+				</div>
+			</div>
+		</div>
+
+		
 		<br> 
 		<br> 
 		<br> 
 		
-		<a href="index.html">Homepage</a>
+		<a class="btn btn-primary" href="index.html" role="button">Homepage</a>
+		<a class="btn btn-primary" href="funfacts.html" role="button">Fun Facts</a>
+		<a class="btn btn-primary" href="contactme.html" role="button">Contact Us</a>
+		
+		
     </body>
 </html>
